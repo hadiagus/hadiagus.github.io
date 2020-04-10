@@ -164,7 +164,9 @@ div{
 	top:171px;
 	right:0;
 }
-
+.over{
+	overflow: hidden;
+}
 .textbox01 h1{
 	font-size: 38px;
 	font-weight: bold;
@@ -423,3 +425,50 @@ div{
     color: #fff;
     padding: 21px;
     box-sizing: border-box;}
+
+.footer{
+	font-size: 15px;
+	color:#fff;
+	float: left;
+	overflow: hidden;
+	padding: 97px 0 0 0;
+}
+
+.footer a {
+	text-decoration: none;
+	font-size: 15px;
+	color:#fff;
+	display: inline-block;
+}
+
+.block1{
+	float: left;
+	display: inline-block;
+	width: 470px;
+}
+.block2{
+	float: left;
+	display: inline-block;
+	width: 300px;
+}
+.block3{
+	float: left;
+	display: inline-block;
+	width: 110px;
+}
+.block4{
+	float: left;
+	display: inline-block;
+	width: 190px;
+}
+.block4{
+	float: left;
+	display: inline-block;
+}
+
+
+.block1 p:first-child{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 28px;
+}
