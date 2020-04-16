@@ -64,12 +64,12 @@ div{
 }
 
 .wrap{
-	width: 1366px;	
+	width: 100%;	
 	margin: 0 auto;
 }
 
 .inner{
-	width: 1170px;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -94,7 +94,7 @@ div{
 }
 
 .foto{
-	background-image: url("../images/img02.jpg");
+	background-image: url("../images/kocheng.jpg");
 	background-repeat: no-repeat;
 }
 
@@ -116,7 +116,7 @@ div{
 }
 
 .navbar{
-	padding-top: 38px;
+	padding: 38px 0;
 	height:63px;
 }
 
@@ -132,6 +132,31 @@ div{
 	font-weight: bold;
 }
 
+.logo{
+	width: 2%;
+	margin: 0 !important;
+}
+
+.navbar a{
+	float: left;
+	display: inline-block;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 12px;
+    margin-right: 37px;
+    margin-top: 7px;
+	color: #191919;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navbar a:hover{
+	color:#2ecbc6 !important;
+}
+
+.active{
+	color:#2ecbc6 !important;
+}
+
 .navbar ul li .active{
 	color:#2ecbc6;
 	float: left;
@@ -142,14 +167,27 @@ div{
 	font-weight: bold;
 }
 
-.navbar ul li .last{
-	margin-right: 0px;
+.navbar ul li a:hover{
+	color:#2ecbc6;
+}
+
+
+.navbar ul{
+	float: right;
+}
+
+.navbar ul li{
+	float: left;
 }
 
 .navbar img{
-	margin-right: 524px;
 	float: left;
 	display: inline-block;
+}
+
+.menu{
+	float: right;
+    width: 80%;
 }
 
 .mv{
@@ -158,11 +196,14 @@ div{
 }
 
 .textbox01{
-	width: 505px;
-	height: 236px;
-	position: absolute;
-	top:171px;
-	right:0;
+	    /* width: 50%; */
+    /* height: 236px; */
+    /* position: absolute; */
+    /* top: 171px; */
+    /* right: 0; */
+    margin-top: 15%;
+    /* overflow: hidden; */
+    float: right;
 }
 .over{
 	overflow: hidden;
@@ -175,6 +216,9 @@ div{
 .textbox01 p{
 	font-size: 18px;
     line-height: 26px;
+}
+.last{
+	margin-right: 0 !important;
 }
 
 .textbox01 a{
@@ -218,17 +262,29 @@ div{
 }
 
 .content03{	
-    width: 683px;
+    width: 50%;
     height: 570px;
-    background-image: url(../images/img01.jpg);
+    background-image: url(../images/balon.jpg);
     background-repeat: no-repeat;
     /* display: inline-block; */
-    margin-right: -97px;
+/*    margin-right: -97px;*/
+	float: left;	
+    background-size: cover;
 }
 
 .content02{
-	width: 555px;
+	width: 50%;
+	padding: 0 10%;
 }
+
+.textbox03{
+	overflow: hidden;
+}
+
+.textbox03 img{
+	width: 100%;
+}
+
 .textbox03 h3{
     font-size: 30px;
     margin-bottom: 35px;
@@ -246,19 +302,20 @@ div{
 
 .glyphicon{
 	height: 240px;
-	padding: 100px 0;
 }
 
 .kotak{
-	width: 292px;
+	width: 25%;
 	float: left;
 	display: inline-block;
+	padding: 100px 0 70px 0;
 }
 
 .kotak img{
 	float: left;
 	display: inline-block;
-	margin-right: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .number{
@@ -278,7 +335,11 @@ div{
 	height: 301px;
 	float: left;
 	display: inline-block;
+    background-size: cover;
 	background-image: url("../images/cat.jpg");
+}
+.blok:hover{
+	opacity: 0.5;
 }
 .blok2{
 	width: 20%;
@@ -303,20 +364,22 @@ div{
 
 .video{
 	width: 100%;
-	height:571px;
+	height:100%;
 	position:relative;
 	margin-bottom: 100px;
 }
 
 .play{
 	position: absolute;
-	left:525.5px;
-	top:50%;
+    top: 45%;
+    left: 45%;
 }
 .glyphicon2{
 	height:536px;
 	padding: 100px 0;
 	float: left;
+	display: table;
+    width: 100%;
 }
 .kontenvid{
 	height: 929px;
@@ -324,7 +387,7 @@ div{
 }
 
 .kotak2{
-	width: 292.5px;
+	width: 25%;
 	float: left;
 	text-align: center;
 	display: inline-block;
@@ -344,11 +407,11 @@ div{
 }
 
 .content04{
-	height: 500px;
+	height: auto;
     text-align: center;
 	width: 100%;
 	color: #fff;
-	padding: 179px 0;
+    padding: 179px 0 45px 0;
 }
 .content04 h3{
 	font-size: 18px;
@@ -378,7 +441,7 @@ div{
 }
 
 .form01{
-	width:320px;
+	width:48%;
 	height: 48px;
 	font-size: 15px;
 	color:#787878;
@@ -386,7 +449,7 @@ div{
 	margin-bottom: 30px;
 }
 .form02{
-	width:320px;
+	width:48%;
 	height: 48px;
 	font-size: 15px;
 	color:#787878;
@@ -394,14 +457,14 @@ div{
 }
 
 .form03{
-	width:672px;
+	width:100%;
 	height: 48px;
 	font-size: 15px;
 	color:#787878;
 	margin-bottom: 30px;
 }
 .form04{
-	width:672px;
+	width:100%;
 	height: 172px;
 	font-size: 15px;
 	color:#787878;
@@ -409,7 +472,7 @@ div{
 }
 
 .forminput{
-	width: 672px; 
+	width: 100%; 
     margin: 0 auto;
 	margin-top: 40px;
 }
@@ -424,7 +487,11 @@ div{
     text-decoration: none;
     color: #fff;
     padding: 21px;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+}
+.buttonsubmit:hover, .button:hover{
+    background-color: darkcyan;
+}
 
 .footer{
 	font-size: 15px;
@@ -432,6 +499,8 @@ div{
 	float: left;
 	overflow: hidden;
 	padding: 97px 0 0 0;
+	width: 100%;
+	height: 285px;
 }
 
 .footer a {
@@ -444,26 +513,27 @@ div{
 .block1{
 	float: left;
 	display: inline-block;
-	width: 470px;
+	width: 40%;
 }
 .block2{
 	float: left;
 	display: inline-block;
-	width: 300px;
+	width: 25%;
 }
 .block3{
 	float: left;
 	display: inline-block;
-	width: 110px;
+	width: 10%;
 }
 .block4{
 	float: left;
 	display: inline-block;
-	width: 190px;
+	width: 15%;
 }
-.block4{
+.block5{
 	float: left;
 	display: inline-block;
+	width: 10%;
 }
 
 
@@ -471,4 +541,32 @@ div{
 	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 28px;
+}
+
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 55px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 6px;
+  width: 6px;
+  margin: 0 2px;
+  background-color: #b0e8e6;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+	margin-bottom: 1px;
+}
+
+/* Add a background color to the active dot/circle */
+.dot-container .active, .dot:hover {
+  background-color: #fff;
+  height: 10px;
+  width: 10px;
+	margin-bottom: 0px;
 }

@@ -10,16 +10,29 @@
 <div class="wrap bg-gray foto">
 		<div class="inner">
 			<div class="navbar">
-				<a href="#"><img src="images/logo.png" width="31" height="25" alt="logo"/></a>
-				<ul>
-					<li><a href="#" class="active">HOME</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">WORK</a></li>
-					<li><a href="#">PROCESS</a></li>
-					<li><a href="#">SERVICES</a></li>
-					<li><a href="#">TESTIMONIALS</a></li>
-					<li><a href="#" class="last">CONTACT</a></li>
-				</ul>
+				<a href="#" class="logo"><img src="images/logo.png" width="31" height="25" alt="logo"/></a>
+				<div class="menu">
+
+					<ul>
+						<li><a href="#" class="active">HOME</a></li>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">WORK</a></li>
+						<li><a href="#">PROCESS</a></li>
+						<li><a href="#">SERVICES</a></li>
+						<li><a href="#">TESTIMONIALS</a></li>
+						<li><a href="#" class="last">CONTACT</a></li>
+					</ul>
+
+<!--
+						<a href="#" class="active">HOME</a>
+						<a href="#">ABOUT</a>
+						<a href="#">WORK</a>
+						<a href="#">PROCESS</a>
+						<a href="#">SERVICES</a>
+						<a href="#">TESTIMONIALS</a>
+						<a href="#" class="last">CONTACT</a>
+-->
+				</div>
 			</div>
 			<div class="mv">			
 				<div class="textbox01">
@@ -46,16 +59,16 @@
 		</div>
 </div>
 <div class="wrap bg-graymild clearfix">
-		<div class="inner">
+		<div class="skillbox">
 			<div class="content02 left">			
 			  <div class="textbox03">
 					<h3>Professional Skills</h3>
 				<p>UI/UX DESIGN    75%</p>
-				<img src="images/img__03.png" width="504" height="3" alt=""/> 
+				<img src="images/img__03.png" width="" height="" alt=""/> 
 				<p>WEB DEVELOPMENT    90%</p>
-				<img src="images/img__06.png" width="504" height="3" alt=""/> 
+				<img src="images/img__06.png" width="" height="" alt=""/> 
 				<p>MARKETING    65%</p>
-				<img src="images/img__09.jpg" width="504" height="3" alt=""/> 
+				<img src="images/img__09.jpg" width="" height="" alt=""/> 
 				</div>
 			</div>
 			<div class="content03 right">	
@@ -110,7 +123,7 @@
 third sixth gathered female creeping bearing behold years.
 				  </p>
 				  <div class="video">
-				<img src="images/catvideo.jpg" width="1170" height="571" alt=""/> 
+				<img src="images/catvideo.jpg" width="100%" height="571" alt=""/> 
 				<img src="images/play icon.png" width="119" height="119" alt="" class="play"/> 
 				  </div>
 				</div>
@@ -120,6 +133,7 @@ third sixth gathered female creeping bearing behold years.
 <div class="wrap bg-graymild clearfix">
 		<div class="inner">
 		  <div class="glyphicon2">
+			  <div class="row1 clearfix">
 				<div class="kotak2">
 					<img src="images/pe-7s-diamond.png" width="42" height="39" alt=""/>
 					<p class="judul">UI/ UX DESIGN</p>
@@ -144,6 +158,8 @@ earth they're creeping</p>
 					<p class="caption">Morning his saying moveth it <br>
 multiply appear life be</p>
 			 	 </div>
+			</div>
+			  <div class="row2">
 				<div class="kotak2">
 					<img src="images/pe-7s-plane.png" width="42" height="39" alt=""/>
 					<p class="judul">SEO / MARKETING</p>
@@ -168,21 +184,37 @@ fourth life whales</p>
 					<p class="caption">Whales likeness hath, man kind <br>
 for them air two won't</p>
 			 	 </div>
+			  </div>
 		  </div>
 		</div>
 </div>
 <div class="wrap bg-green">
 		<div class="inner">
-			<div class="content04">			
-			  <div class="textbox03">
+			<div class="slideshow-container content04">			
+			  <div class="textbox03 mySlides">
 				<h3>“ Outstanding job and exceeded all expectations. It was a pleasure <br>
 to work with them on a sizable first project and am looking <br>
 forward to start the next one asap.”
 				  </h3>
 				  <p> MICHAEL HOPKINS</p>
-				
+				</div>		
+			  <div class="textbox03 mySlides">
+				<h3>“No matter how much cats fight,<br> there always seem to be plenty<br> of kittens.”
+				  </h3>
+				  <p>Abraham Lincoln</p>
+				</div>		
+			  <div class="textbox03 mySlides">
+				<h3>“The smallest feline<br> is a<br> masterpiece”
+				  </h3>
+				  <p>leonardo da vinci </p>
 				</div>
 			</div>
+				
+				<div class="dot-container">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
 		</div>
 </div>
 <div class="wrap bg-white clearfix">
@@ -205,7 +237,7 @@ if this could be the start of something beautiful.
 					<input type="text" class="form01" value="Your Name">
 					<input type="text" class="form02" value="Your Email">
 					<input type="text" class="form03" value="Your Title">
-					<input type="text" class="form04" value="Your Comment">
+					<textarea class="form04">Your Comment</textarea>
 					<input type="submit" class="buttonsubmit" value="SEND MESSAGE"> 
 					  </form>
 				  </div> 
@@ -227,31 +259,60 @@ Designed by robirurk.</p>
 +44 987 065 908 </p>
 			</div>
 			<div class="block3">
-				<p>
-				<a href="#">Projects</a>
-				<a href="#">About</a>
-				<a href="#">Services</a>
-				<a href="#">Carreer</a>
-				</p>
+				<ul>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Carreer</a></li>
+				</ul>
 			</div>
 			<div class="block4">
-				<p>
-				<a href="#">News</a>
-				<a href="#">Events</a>
-				<a href="#">Contacts</a>
-				<a href="#">Legals</a>
-				</p>
+				<ul>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="#">Contacts</a></li>
+					<li><a href="#">Legals</a></li>
+				</ul>
 			</div>
 			<div class="block5">
-				<p>
-				<a href="#">Facebook</a>
-				<a href="#">Twitter</a>
-				<a href="#">Instagram</a>
-				<a href="#">Dribble</a>
-				</p>
+				<ul>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">Dribble</a></li>
+				</ul>
 			</div>
 				</div>
 		</div>
 </div>
+	
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
 </body>
 </html>
