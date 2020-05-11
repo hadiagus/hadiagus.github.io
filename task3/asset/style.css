@@ -37,7 +37,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	min-width: 1903px;
+	min-width: 1900px;
 	line-height: 1;
 }
 ol, ul {
@@ -78,8 +78,10 @@ table {
 	float: left;
 }
 
-.nav ul{
-	float: right;
+.nav ul {
+    float: right;
+    width: 600px;
+    padding-top: 5px;
 }
 
 .nav ul li{
@@ -88,12 +90,19 @@ table {
 
 .nav ul li a{
 	float: left;
-	font-size: 13px;
-	color: #ffffff;
-	margin-left: 40px;
-	text-transform: uppercase;
-	font-weight: bold;
-	text-decoration: none;
+    font-size: 13px;
+    color: #ffffff;
+    margin-right: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.first{	
+    margin-left: 9px;
+}
+
+.last{
+    margin-right: -1px !important;
 }
 
 .nav ul li a:hover{
@@ -103,19 +112,23 @@ table {
 .mvcontent{
 	color: #ffffff;
 	text-align: center;
-    padding-top: 160px;
+    padding-top: 140px;
+	font-family: "Open Sans", sans-serif;
 }
 
 .mvcontent h1{
 	font-size: 65px;
 	text-transform: uppercase;
-    font-weight: 1000;
-	padding-bottom: 42px;
+    font-weight: 700;
+	font-family: "Open Sans", sans-serif;
+    padding-bottom: 22px;
+    line-height: 55pt;
 }
 
 .mvcontent p{
 	font-size: 22px;
 	font-weight: lighter;
+    line-height: 24pt;
 }
 
 .mvcontent a{
@@ -128,9 +141,9 @@ table {
     background-color: #e84545;
     display: inline-block;
     text-align: center;
-    padding: 17px;
+    padding: 16px;
     margin-top: 75px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .mvcontent a:hover{
@@ -139,7 +152,7 @@ table {
 
 
 .button{
-    width: 200px;
+    width: 280px;
     height: 46px;
     text-decoration: none;
     color: white;
@@ -148,9 +161,9 @@ table {
     background-color: #e84545;
     display: inline-block;
     text-align: center;
-    padding: 17px;
-    margin-top: 30px;
-    border-radius: 5px;
+    padding: 16px;
+    margin-top: 39px;
+    border-radius: 2px;
 }
 
 .button:hover{
@@ -173,13 +186,15 @@ table {
 
 .fiturbox h3{
 	font-size: 14px;
-	font-weight: bold;
-	padding-top:35px;
-	padding-bottom: 10px;
+	font-weight: bold;	
+    padding-top: 29px;
+    padding-bottom: 19px;
+    text-transform: uppercase;
 }
 
 .fiturbox p{
 	font-size: 14px;
+    line-height: 20px;
 }
 
 .p_u70{
@@ -198,7 +213,7 @@ table {
 }
 
 .gallery2{
-	width: 481px;
+	width: 480px;
 	float: left;
 	margin-right: 1px;
 	height: 350px;
@@ -206,7 +221,7 @@ table {
 }
 
 .gallery3{
-	width: 481px;
+	width: 480px;
 	float: left;
 	margin-right: 1px;
 	height: 350px;
@@ -214,7 +229,7 @@ table {
 }
 
 .gallery4{
-	width: 469px;
+	width: 468px;
 	float: left;
 	margin: 0;
 	height: 350px;
@@ -225,30 +240,34 @@ table {
 	width: 469px;
 	float: left;
 	margin-right: 1px;
+	margin-top: 1px;
 	height: 350px;
 	background-image: url("../images/Layer 39.png");
 }
 
 .gallery6{
-	width: 481px;
+	width: 480px;
 	float: left;
 	margin-right: 1px;
+	margin-top: 1px;
 	height: 350px;
 	background-image: url("../images/Layer 40.png");
 }
 
 .gallery7{
-	width: 481px;
+	width: 480px;
 	float: left;
 	margin-right: 1px;
+	margin-top: 1px;
 	height: 350px;
 	background-image: url("../images/Layer 41.png");
 }
 
 .gallery8{
-	width: 469px;
+	width: 468px;
 	float: left;
 	margin: 0;
+	margin-top: 1px;
 	height: 350px;
 	background-image: url("../images/Layer 42.png");
 }
@@ -309,24 +328,28 @@ table {
 
 
 .profilbox h4{
-	margin-top: 35px;
-	margin-bottom: 15px;
-	color: #2d3033;
-	font-size: 14px;
-	font-weight: bold;
+	margin-top: 24px;
+    margin-bottom: 5px;
+    color: #2d3033;
+    font-size: 22px;
+    font-family: "Myriad Pro", sans-serif;
 }
 
 .red{
-	color: #e84545;
-	font-size: 13px;
-	margin-bottom: 30px;
-	font-weight: bold;
+    color: #e84545;
+    font-size: 13px;
+    margin-bottom: 23px;
+    font-weight: 400;
+    font-family: inherit;
+    text-transform: uppercase;
 }
 
 .paragraf{
 	color: #6c7279;
-	font-size: 14px;
-	margin-bottom: 30px;
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-family: "Myriad Pro", sans-serif;
+    line-height: 21px;
 }
 
 .facebook{
@@ -337,6 +360,7 @@ table {
 	background-position: center;
 	background-repeat: no-repeat;
 	float: left;
+	margin-right: 4px;
 }
 
 .instagram{
@@ -357,6 +381,7 @@ table {
 	background-position: center;
 	background-repeat: no-repeat;
 	float: left;
+	margin-right: 4px;
 }
 
 .mr0{
@@ -376,20 +401,27 @@ table {
 
 .quote{
 	width: 50%;
-	float: right;
-	padding: 115px 160px;
+    float: right;
+    padding-top: 110px;
+    padding-left: 80px;
+    padding-right: 370px;
 }
 
 .quote p{
-	float: right;
-	color: #ffffff;
-	font-size: 36px;
-	width: 100%;
+    float: right;
+    color: #ffffff;
+    font-size: 36px;
+    width: 100%;
+    font-family: 'Cardo', serif;
+    line-height: 42px;
+    height: 192px;
 }
 
 .name{
-	color: #ffffff;
-	font-size: 13px;
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+	font-weight: bold;
 }
 
 .slideshow-container{
@@ -435,49 +467,51 @@ table {
 .dot-container {
     text-align: center;
     padding: 20px;
+    margin-top: 38px;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #755d6e;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #ffffff;
 }
 
 .download{
 	overflow: hidden;
 	height: 340px;
-	padding: 100px;
+	padding: 96px;
 	text-align: center;
 }
 
 .download h1{
-	font-size: 28px;
-	color:#2d3033;
-	font-weight: bold;
-	margin-bottom: 10px;
+    font-size: 28px;
+    color: #2d3033;
+    margin-bottom: 11px;
 }
 
 .download p{
-	font-size: 13px;
-	color:#2d3033;
+    font-size: 13px;
+    color: #2d3033;
+    font-weight: 1000;
+    text-transform: uppercase;
 }
 
 .footer{
-	background-color: #3a3e64;
-	overflow: hidden;
-	height: 118px;
-	padding: 70px 0 110px;
+    background-color: #3a3e64;
+    overflow: hidden;
+    height: 250px;
+    padding: 68px 0 110px;
 }
 
 .footerbox{
@@ -488,65 +522,85 @@ table {
 
 .footerbox h4{
 	font-size: 14px;
-	color:#ffffff;
-	font-weight:bold;
-	margin-bottom: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 14px;
+    text-transform: uppercase;
 }
 
 .footerbox p{
 	font-size: 14px;
-	color:#ffffff;
+    color: #ffffff;
+    line-height: 22px;
+    opacity: 0.5;
 }
 
-
-
+.share{
+    padding-left: 10px;
+}
 .facebook2{
-	width: 40px;
-	height: 40px;
-	border: 1px solid #ffffff;
-	background-image: url("../images/Shape 6.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	float: left;
-	margin-right: 8px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    background-image: url("../images/Shape 6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 8px;
 }
 
 .instagram2{
 	width: 40px;
-	height: 40px;
-	border: 1px solid #ffffff;
-	background-image: url("../images/Shape 11.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	float: left;
-	margin-right: 8px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    background-image: url("../images/Shape 11.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
 }
 
 .twitter2{
-	width: 40px;
-	height: 40px;
-	border: 1px solid #ffffff;
-	background-image: url("../images/Shape 3.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	float: left;
-	margin-right: 8px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    background-image: url("../images/Shape 3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 7px;
 }
 
 .sosmed{	
     display: inline-block;
+    margin-top: 5px;
+    margin-left: 11px;
 }
 
+.about{
+    padding-left: 18px;
+}
+
+.about2{
+    padding-left: 31px;
+    width: 373px;
+}
 .footerbottom{
-	height: 96px;
+	height: 94px;
 	overflow: hidden;
 	text-align: center;
 	background-color: #313454;
 	color: #808080;
-	padding: 30px;
+    padding: 25px;
 	font-size: 14px;
 }
+.footerbottom h4{
+    line-height: 21px;
+}
 
+.reds{
+    color: #e84545;
+    font-size: medium;
+}
 .white{
 	color:#ffffff;
 }
