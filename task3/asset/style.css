@@ -78,6 +78,10 @@ table {
 	float: left;
 }
 
+.navsp{
+	display: none;
+}
+
 .nav ul {
     float: right;
     width: 600px;
@@ -123,6 +127,7 @@ table {
 	font-family: "Open Sans", sans-serif;
     padding-bottom: 22px;
     line-height: 55pt;
+    letter-spacing: -1pt;
 }
 
 .mvcontent p{
@@ -603,4 +608,12 @@ table {
 }
 .white{
 	color:#ffffff;
+}
+
+.sponly{
+	display: none;
+}
+
+.pconly{
+	display: inline-block;
 }

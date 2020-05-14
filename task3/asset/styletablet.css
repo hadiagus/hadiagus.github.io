@@ -1,0 +1,205 @@
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+/*
+ .mv{
+	background:red;
+}
+*/
+	
+body {
+	min-width: 768px;
+}
+
+.inner{
+	width: 692px;
+}
+
+.mvcontent{
+    padding-top: 125px;
+}
+	
+.mvcontent h1{
+    font-size: 45px;
+    padding-bottom: 8px;
+    line-height: 35pt;
+}
+
+.mvcontent p{
+    font-size: 16px;
+    line-height: 23pt;
+}
+
+.mvcontent a {
+    width: 182px;
+    height: 48px;
+    margin-top: 77px;
+    border-radius: 2px;
+} 
+.mv {
+    height: 679px;
+}
+
+	.fitur{
+		padding: 62px 38px;    
+		height: 962px;
+	}
+	.fiturbox{
+		width: 308px;
+		height: 308px;
+	}
+	.left{
+		float: left;
+	}	
+	.right{
+		float: right;
+	}	
+	
+
+	.p_u70{
+		padding-top:0px;
+	}
+	
+	.gallery3, .gallery4{
+		margin-top:1px;
+	}
+
+	.gleft{
+		width: 383px;
+	}
+
+	.gright{
+		width: 384px;
+		margin-right: 0;
+	}
+	.pleft{
+		float: left;
+		margin-left: 24px;
+		margin-right: 52px;
+		padding: 31px 0;
+	}	
+	.pright{
+		float: right;
+		margin-right: 24px;
+		margin-left: 52px;
+		padding: 31px 0;
+	}	
+	
+	.profil {
+    padding: 31px 0;
+	}
+	
+
+	.slideshow-container{
+		height: auto;
+	}
+	
+	.mySlides img {
+    width: 100%;
+		height: 432px;
+	}
+	
+	.quote {
+    width: 100%;
+    float: right;
+    padding: 62px;
+	}
+	
+	.download{
+    height: 350px;
+    padding: 105px 0;
+	}
+	
+	.share, .about, .about2 {
+    padding:0px;
+		width: auto;
+	}
+	
+	.sosmed {
+    margin-left: 0px;
+	}
+	
+	.nav{
+		display: none;
+	}
+	
+	.navsp{
+		display: inline-block;
+		float: right;
+		margin-top: -10px;
+	}
+	
+	.w3-show{
+		display:inline-block;
+	}
+	
+	.navmodal{    
+	position: fixed;
+    top: 100px;
+    right: 0;
+    height: 32%;
+    padding: 32px;
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 3px;
+    width: 260px;
+    text-align: center;
+	}
+	.navmodal ul {
+    position: fixed;
+    right: 12%;
+	}
+	
+	.navmodal ul li {
+    width: 100%;
+    height: 50px;
+	}
+	
+	.navmodal ul li a{
+		font-size: 13px;
+		color: #ffffff;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	
+	.navmodal ul li a:hover{
+		font-weight: bold;
+	}
+	.first, .last{
+		margin:0;
+	}
+	
+	.button{
+		width:220px;
+		height: 50px;
+	}
+	
+	.footer{
+    height: auto;
+    padding: 62px 0 0px;
+	}
+	
+	.footerbox {
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-bottom: 62px;
+	}
+	
+	.x {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+	}
+
+.sponly{
+	display: none;
+}
+
+.pconly{
+	display: inline-block;
+}
+}

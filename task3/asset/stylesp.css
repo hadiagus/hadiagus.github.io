@@ -1,0 +1,104 @@
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 600px) {
+ .mv{
+	background:red;
+}
+	
+body {
+	min-width: 414px;
+}
+
+.inner{
+	width: 372px;
+}
+	
+.header{
+    padding: 40px 0px;
+}	
+
+.mvcontent {
+    padding-top: 76px;
+}
+	
+.mvcontent h1 {
+    font-size: 30px;
+    padding-bottom: 8px;
+    line-height: 27pt;
+    letter-spacing: 1px;
+}
+
+.mvcontent p{
+    font-size: 16px;
+    line-height: 21pt;	
+    letter-spacing: 1px;
+}
+
+.mvcontent a {
+    margin-top: 77px;
+} 
+.mv {
+    height: 750px;
+}
+
+.fitur {
+    padding: 99px 0px;
+    height: 1724px;
+}
+.fiturbox {
+    width: 372px;
+    height: 254px;
+}
+	.fiturbox h3 {
+    padding-top: 28px;
+    padding-bottom: 10px;
+}
+	
+.fiturbox p {
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.sponly{
+	display: inline-block;
+}
+
+.pconly{
+	display: none;
+}
+	.gallery {
+    height: 349px;
+    width: 100% !important;
+	}
+	.gallery2 {
+	margin-top:1px;
+	}
+	
+	.profil {
+    padding: 41px 0;
+}
+.pleft {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 55px 0;
+}
+	.pright {
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 0px 0;
+}
+	.profil {
+    padding: 45px 0;
+    text-align: center;
+}
+	.profilbox h4 {
+    margin-top: 17px;
+    margin-bottom: 6px;
+	}
+	.red {
+    margin-bottom: 21px;
+	}
+	.paragraf {
+    margin-bottom: 30px;
+    line-height: 22px;
+	}
+}

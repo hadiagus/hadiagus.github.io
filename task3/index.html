@@ -6,14 +6,16 @@
 <title>2173418</title>
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap" rel="stylesheet">
 <link href="asset/style.css" rel="stylesheet" type="text/css">
+<link href="asset/styletablet.css" rel="stylesheet" type="text/css">
+<link href="asset/stylesp.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<div class="mv">
 		<div class="inner">
-			<div class="header">
+			<div class="header" onscroll="myFunctionColor()">
 		    	<a href="#"><img src="images/ActiveBox.png" width="189" height="24" alt=""/></a>
-				<div class="nav">
+				<div class="nav" id="">
 					<ul>
 						<li><a class="first" href="#features">Features</a></li>
 						<li><a href="#works">Works</a></li>
@@ -22,42 +24,45 @@
 						<li><a class="last" href="#download">Download</a></li>
 					</ul>
 				</div>
+				<div class="navsp">
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="images/Layer 1.png" width="44" height="44" alt=""/></a>
+				</div>
 			</div>
 			<div class="mvcontent">
-				<h1>Your Favorite One Page<br>Multi Purpose Template</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna<br>vel scelerisque nisl consectetur et.</p>
+				<h1>Your Favorite One <br class="sponly">Page<br class="pconly">Multi <br class="sponly">Purpose Template</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur <br class="sponly">adipiscing elit. Praesent commodo cursus <br class="sponly">magna<br class="pconly">vel scelerisque nisl consectetur et.</p>
 				<a href="#">Find Out More</a>
 			</div>
 		</div>
 	</div>
 	<div class="fitur" id="features">
 		<div class="inner">
-			<div class="fiturbox">
+			<div class="fiturbox left">
 		    	<img src="images/Layer 48.png" width="60" height="60" alt=""/> 
 				<h3>Easily Customised</h3>
 			  <p>Cras justo odio, dapibus ac facilisis in, egestas<br> eget quam. Nullam quis risus eget urna mollis<br> ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
 			</div>
-			<div class="fiturbox">
+			<div class="fiturbox right">
 		    	<img src="images/Layer 44.png" width="73" height="60" alt=""/>
 				<h3>Responsive REady</h3>
 				<p>Cras justo odio, dapibus ac facilisis in, egestas<br> eget quam. Nullam quis risus eget urna mollis<br> ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
   	 	  </div>
-			<div class="fiturbox">
+			<div class="fiturbox left">
 		    	<img src="images/Layer 47.png" width="41" height="60" alt=""/>
 				<h3>Modern Design</h3>
 				<p>Cras justo odio, dapibus ac facilisis in, egestas<br> eget quam. Nullam quis risus eget urna mollis<br> ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
   	  	  </div>
-			<div class="fiturbox p_u70">
+			<div class="fiturbox right p_u70">
 		    	<img src="images/Layer 46.png" width="56" height="60" alt=""/>
 				<h3>Clean Code</h3>
 				<p>Cras justo odio, dapibus ac facilisis in, egestas<br> eget quam. Nullam quis risus eget urna mollis<br> ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
   	  	  </div>
-			<div class="fiturbox p_u70">
+			<div class="fiturbox left p_u70">
 		    	<img src="images/Layer 43.png" width="72" height="60" alt=""/>
 				<h3>Ready to Ship</h3>
 				<p>Cras justo odio, dapibus ac facilisis in, egestas<br> eget quam. Nullam quis risus eget urna mollis<br> ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
   	  	  </div>
-			<div class="fiturbox p_u70">
+			<div class="fiturbox right p_u70">
 		    	<img src="images/Layer 45.png" width="79" height="60" alt=""/>
 				<h3>Download for Free</h3>
 				<p>Cras justo odio, dapibus ac facilisis in, egestas<br> eget quam. Nullam quis risus eget urna mollis<br> ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
@@ -65,18 +70,18 @@
 		</div>
 	</div>
 	<div class="project" id="works">
-		<div class="gallery gallery1"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
-		<div class="gallery gallery2"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
-		<div class="gallery gallery3"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
-		<div class="gallery gallery4"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
-		<div class="gallery gallery5"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
-		<div class="gallery gallery6"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
-		<div class="gallery gallery7"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
-		<div class="gallery gallery8"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
+		<div class="gallery gallery1 gleft"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
+		<div class="gallery gallery2 gright"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
+		<div class="gallery gallery3 gleft"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
+		<div class="gallery gallery4 gright"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
+		<div class="gallery gallery5 gleft"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
+		<div class="gallery gallery6 gright"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
+		<div class="gallery gallery7 gleft"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
+		<div class="gallery gallery8 gright"><a href="#"><div class="overlay"><div class="text">Project Name <br><span>User Interface Design</span></div></div></a></div>
 	</div>
 	<div class="profil" id="team">
 		<div class="inner">
-			<div class="profilbox">
+			<div class="profilbox pleft">
 				<img src="images/Layer 30.png" width="270" height="270" alt=""/> 
 				<h4>Ruth Woods</h4>
 				<p class="red">Founder, CEO</p>
@@ -85,7 +90,7 @@
 				<a href="#" class="twitter"></a>
 				<a href="#" class="instagram"></a>
 			</div>
-			<div class="profilbox">
+			<div class="profilbox pright">
 				<img src="images/Layer 31.png" width="270" height="270" alt=""/>
 				<h4>Timothy Reed</h4>
 				<p class="red">Co-Founder, Developer</p>
@@ -94,7 +99,7 @@
 				<a href="#" class="twitter"></a>
 				<a href="#" class="instagram"></a>
 		  </div>
-			<div class="profilbox">
+			<div class="profilbox pleft">
 				<img src="images/Layer 32.png" width="270" height="270" alt=""/>
 				<h4>Victoria Valdez</h4>
 				<p class="red">UI Designer</p>
@@ -103,7 +108,7 @@
 				<a href="#" class="twitter"></a>
 				<a href="#" class="instagram"></a>
 		  </div>
-			<div class="profilbox mr0">
+			<div class="profilbox mr0 pright">
 				<img src="images/Layer 33.png" width="270" height="270" alt=""/>
 				<h4>Beverly Little</h4>
 				<p class="red">Data Scientist</p>
@@ -175,6 +180,18 @@ Beverly Hills, CA 90210</p>
 Made with <span class="reds">&#9829;</span><span class="white"> by Kamal Chaneman</span></h4>
 	</div>
 </div>
+	
+	
+				<div class="navmodal" id="myLinks" style="display: none;">
+					<a href="javascript:void(0);" class="x" onclick="myFunction()">X</a>
+					<ul>
+						<li><a class="first" href="#features" onclick="myFunction2()">Features</a></li>
+						<li><a href="#works" onclick="myFunction2()">Works</a></li>
+						<li><a href="#team" onclick="myFunction2()">Our Team</a></li>
+						<li><a href="#testi" onclick="myFunction2()">Testimonials</a></li>
+						<li><a class="last" href="#download" onclick="myFunction2()">Download</a></li>
+					</ul>
+				</div>
 </body>
 
 <script>
@@ -203,6 +220,20 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
+}
+	
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+	
+function myFunction2() {
+  var x = document.getElementById("myLinks");
+    x.style.display = "none";
 }
 </script>
 </html>
