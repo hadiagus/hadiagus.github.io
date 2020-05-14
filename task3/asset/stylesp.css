@@ -1,6 +1,6 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 414px) {
 /*
  .mv{
 	background:red;
@@ -97,10 +97,80 @@ body {
     margin-bottom: 6px;
 	}
 	.red {
-    margin-bottom: 21px;
+    margin-bottom: 20px;
 	}
 	.paragraf {
     margin-bottom: 30px;
     line-height: 22px;
+	}
+	
+	.facebook{
+		margin-right: 9px;
+	}
+	
+	.twitter{
+		margin-right: 8px;
+	}
+	
+	.pb0{
+		padding-bottom: 0;
+	}
+	.mySlides img {
+    height: 208px;
+}
+	.quote {
+    padding: 20px;
+    height: 288px;
+}
+	.quote p {
+    font-size: 26px;
+    line-height: 35px;
+    height: 133px;
+}
+	.dot-container {
+    margin-top: 53px;
+}
+	.dot {
+    margin: 0 3px;
+	}
+	.slideshow-container {
+    margin-top: 111px;
+}
+	.download {
+    height: 380px;
+    padding: 96px 0;
+}
+	.button{
+		margin-top: 43px;
+    letter-spacing: 2px;
+}
+	.footer {
+    height: 443px;
+    padding: 58px 0 0px;
+}
+.footerbox {
+    margin-bottom: 49px;
+}
+	.footerbox h4 {
+    margin-bottom: 21px;
+}
+	
+.sharewl {
+    margin-bottom: 44px;
+}
+	
+.share {
+    margin-bottom: -9px;
+}
+	
+.sosmed {
+    margin-top: 0px;
+}
+	
+	.footerbottom {
+    padding: 21px;
+}
+	.navmodal {
+		width: 50%;
 	}
 }
