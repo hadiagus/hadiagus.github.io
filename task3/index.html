@@ -10,7 +10,7 @@
 <link href="asset/stylesp.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body  onresize="hidemenu()">
 	<div class="mv">
 		<div class="inner">
 			<div class="header" onscroll="myFunctionColor()">
@@ -126,10 +126,12 @@
 				<p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
 				<span class="name">Susan Sims, Interaction Designer at XYZ</span>
 
+<!--
 				<div class="dot-container">
 				  <span class="dot" onclick="currentSlide(1)"></span> 
 				  <span class="dot" onclick="currentSlide(2)"></span> 
 				</div>
+-->
 			</div>
 		</div>
 		<div class="mySlides">
@@ -138,12 +140,19 @@
 				<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
 				<span class="name">Anonim</span>
 
+<!--
 				<div class="dot-container">
 				  <span class="dot" onclick="currentSlide(1)"></span> 
 				  <span class="dot" onclick="currentSlide(2)"></span> 
 				</div>
+-->
 			</div>
 		</div>
+
+				<div class="dot-container">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				</div>
 </div>
 	
 <div class="download" id="download">
@@ -232,6 +241,11 @@ function myFunction() {
 }
 	
 function myFunction2() {
+  var x = document.getElementById("myLinks");
+    x.style.display = "none";
+}
+	
+function hidemenu() {
   var x = document.getElementById("myLinks");
     x.style.display = "none";
 }

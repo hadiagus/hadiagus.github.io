@@ -8,11 +8,11 @@
 */
 	
 body {
-	min-width: 768px;
+/*	min-width: 768px;*/
 }
 
 .inner{
-	width: 692px;
+    width: 90.1%;
 }
 
 .mvcontent{
@@ -45,7 +45,8 @@ body {
 		height: 962px;
 	}
 	.fiturbox{
-		width: 308px;
+		
+    width: 50%;
 		height: 308px;
 	}
 	.left{
@@ -60,36 +61,46 @@ body {
 		padding-top:0px;
 	}
 	
+	.gallery{
+		max-width:50%;
+	}
+	
 	.gallery3, .gallery4{
 		margin-top:1px;
 	}
-
-	.gleft{
-		width: 383px;
+	
+	.gallery1, .gallery3, .gallery5, .gallery7 {
+    margin-right: 0.13%;
 	}
 
-	.gright{
-		width: 384px;
-		margin-right: 0;
-	}
-	.pleft{
-		float: left;
-		margin-left: 24px;
-		margin-right: 52px;
-		padding: 31px 0;
-	}	
-	.pright{
-		float: right;
-		margin-right: 24px;
-		margin-left: 52px;
-		padding: 31px 0;
-	}	
+.gleft {
+    width: 49.87%;
+}
+
+.gright {
+    width: 50%;
+    margin-right: 0;
+}
+.pleft {
+    float: left;
+    margin-left: 3.46%;
+    margin-right: 7.51%;
+    padding: 31px 0;
+}
+.pright {
+    float: right;
+    margin-right: 3.46%;
+    margin-left: 7.51%;
+    padding: 31px 0;
+}
 	
 	.profil {
     padding: 31px 0;
 	}
 	
-
+.profilbox {
+    width: 39%;
+}
 	.slideshow-container{
 		height: auto;
 	}
@@ -142,8 +153,11 @@ body {
     background-color: black;
     opacity: 0.9;
     border-radius: 3px;
-    width: 260px;
-    text-align: center;
+width: 43%;
+
+text-align: center;
+
+max-width: 250px;
 	}
 	.navmodal ul {
     position: fixed;
