@@ -674,15 +674,28 @@ max-width: 380px;
 	.navmodal ul li a:hover{
 		font-weight: bold;
 	}
+	
+
 	.mvcontent h1 {
     font-size: 55px;
 	}
-		.x {
+	
+	.x {
     position: absolute;
     right: 5px;
     top: 5px;
     text-decoration: none;
     color: white;
     font-size: 18px;
+	}
+}
+@media only screen and (max-width: 1118px) {
+	.mvcontent{
+		padding-top: 9.23%;
+	}
+	
+	.mvcontent a{margin-top: 4.94%;
+	border-radius: 2px;
+	margin-bottom: 6.75%;
 	}
 }
