@@ -47,7 +47,7 @@ body {
 	.fiturbox{
 		
     width: 50%;
-		height: 308px;
+		min-height: 308px;
 	}
 	.left{
 		float: left;
